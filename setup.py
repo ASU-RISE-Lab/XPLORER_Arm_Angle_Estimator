@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        	'imu_node = bno055_raspi_squeeze.Arm_Angle_Node:main'
+        	'imu_node = bno055_raspi_squeeze.imu_4_timesync:main'
         
         ],
     },
